@@ -1,0 +1,26 @@
+h1 {
+/* Tipografía */
+  text-transform: uppercase;
+  text-align: left;
+
+  /* Colores y efectos */
+  color: black;}
+
+h2 {
+/* Tipografía */
+  text-transform: uppercase;
+  text-align: left;
+
+  /* Colores y efectos */
+  color: rgb(42, 185, 198);
+
+  /* Otras propiedades */
+  word-spacing: 0em;}
+
+#pawar {
+/* Tipografía */
+  font-size: 55px;}
+
+#h1 {
+/* Tipografía */
+  text-transform: none;}
