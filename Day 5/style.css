@@ -1,0 +1,124 @@
+body {
+/* Fondos */
+  background: black;}
+
+.image-logo {
+/* Modelo de caja */
+  display: flex;
+
+  /* Flexbox y Grid */
+  flex-direction: column;
+  justify-content: column;
+
+  /* Dimensiones */
+  width: 150px;
+  height: 150px;}
+
+.box {
+/* Modelo de caja */
+  display: flex;
+
+  /* Flexbox y Grid */
+  justify-content: space-between;}
+
+.nevigation-bar {
+/* Relleno */
+  padding: 20px;
+
+  /* Tipografía */
+  font-size: 19px;
+  text-transform: uppercase;
+
+  /* Colores y efectos */
+  color: white;}
+
+.button {
+/* Dimensiones */
+  height: px;
+  width: px;
+  height: 30px;
+  width: 140px;
+
+  /* Fondos */
+  background: rgb(18, 243, 206);
+
+  /* Tipografía */
+  text-transform: uppercase;
+  font-size: 20px;
+
+  /* Colores y efectos */
+  color: black;}
+
+.mainimage {
+/* Dimensiones */
+  width: 380px;
+  height: 500px;}
+
+.headind-1 {
+/* Modelo de caja */
+  display: flex;
+
+  /* Tipografía */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 24px;
+
+  /* Colores y efectos */
+  color: rgb(18, 243, 206);}
+
+.image {
+/* Modelo de caja */
+  display: flex;
+
+  /* Flexbox y Grid */
+  justify-content: ;}
+
+.headind-2 {
+/* Tipografía */
+  font-size: 60px;
+  font-family: Noto Sans;
+  font-weight: 300;
+  font-size: ;
+
+  /* Colores y efectos */
+  color: white;}
+
+.headind-3 {
+/* Tipografía */
+  font-size: 60PX;
+  font-weight: 100;
+  font-family: Noto Sans;
+
+  /* Colores y efectos */
+  color: rgb(18, 243, 206);}
+
+.headind-4 {
+/* Tipografía */
+  font-size: 20px;
+
+  /* Colores y efectos */
+  color: white;}
+
+.main {
+/* Modelo de caja */
+  display: flex;
+
+  /* Flexbox y Grid */
+  justify-content: space-between;}
+
+.box2 {
+/* Modelo de caja */
+  display: flex;
+
+  /* Flexbox y Grid */
+  justify-content: space-between;}
+
+.main2 {
+/* Modelo de caja */
+  display: flex;
+
+  /* Flexbox y Grid */
+  justify-content: space-between;}
+
+.paragrap {
+/* Márgenes */
+  margin-right: 40%;}
