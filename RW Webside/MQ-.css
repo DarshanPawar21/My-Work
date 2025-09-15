@@ -1,0 +1,17 @@
+@media(max-width:1360px){
+
+    .mar{display: none;}
+    
+}
+@media(max-width:1360px){
+    .white-logo .new-list{display: none;}
+    .new-list{}
+    .img-2{margin: 0%; }
+    .red-line{
+        display: flex;
+        justify-content: end;
+    }
+    .img-menu{
+        display: block;
+    }
+}
