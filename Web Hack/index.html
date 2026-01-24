@@ -1,0 +1,107 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section>
+      <h2>EMI Calculator</h2>
+  </section>
+  <section class="Container">
+      <div class="Container-fluid">
+      <div class="upper">
+        <div class="calculate">
+          <div class="loan-section">
+            <span class="f1">Loan amount<input type="text" name="" value="" placeholder="1400" class="in"></span>
+            <input type="range" name="" value="" class="range-1">
+          </div>
+          <div class="Rate-section">
+            <span class="f1">Loan amount<input type="text" name="" value="" placeholder="1400" class="in"></span>
+            <input type="range" name="" value="" class="range-1">
+          </div>
+          <div class="tem-section">
+            <span class="f1">Loan amount<input type="text" name="" value="" placeholder="1400" class="in"></span>
+            <input type="range" name="" value="" class="range-1">
+          </div>
+        </div>
+        <div class="">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOA3ocAc_m-5Hw7MbHwxZQVQi6RDvaa0s1nQ&s" alt="">
+        </div>
+      </div>
+      </div>
+  </section>
+<section class="Read">
+  <div class="read-1">
+    <span class="t1" <span>Monthly EMI <span>5000</span></span>
+    <span <span>Monthly EMI <span>5000</span></span>
+    <span <span>Monthly EMI <span>5000</span></span>
+    <span <span>Monthly EMI <span>5000</span></span>
+
+
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMI Calculator - TechWar 2026</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <section class="calculator-container">
+      <!-- head -->
+        <h2>EMI Calculator</h2>
+
+        <div class="main-content">
+            <div class="inputs-section">
+                <div class="input-group">
+                    <div class="label-row">
+                        <label>Loan amount</label>
+                        <span class="value-box">$ <input class="c1" type="number" id="loanAmount" value="400000"></span>
+                    </div>
+                    <input class="t1" type="range" id="loanAmountSlider" min="100000" max="1000000" step="10000" value="400000">
+                </div>
+
+                <div class="input-group">
+                    <div class="label-row">
+                        <label>Rate of interest</label>
+                        <span class="value-box"><input class="c1" type="number" id="interestRate" value="5.4" step="0.1"> %</span>
+                    </div>
+                    <input class="t1" type="range" id="interestRateSlider" min="1" max="20" step="0.1" value="5.4">
+                </div>
+
+                <div class="input-group">
+                    <div class="label-row">
+                        <label>Loan tenure</label>
+                        <span class="value-box"><input class="c1" type="number" id="loanTenure" value="7"> Yr</span>
+                    </div>
+                    <input class="t1" type="range" id="loanTenureSlider" min="1" max="30" step="1" value="7">
+                </div>
+
+                <div class="results-display">
+                    <div class="result-item"><span>Monthly EMI</span>$5,729</div>
+                    <div class="result-item"><span>Principal amount</span>$4,00,000</div>
+                    <div class="result-item"><span>Total interest</span> $81,240</div>
+                    <div class="result-item"><span>Total amount</span> $4,81,240</div>
+                </div>
+            </div>
+
+            <div class="chart-section">
+                <canvas id="emiChart"></canvas>
+            </div>
+        </div>
+
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
